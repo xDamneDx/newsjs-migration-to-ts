@@ -176,3 +176,21 @@
         padding-left: 25px;
     }
 }
+
+@media (max-width: 639px) {
+    .news__item .news__description h2 {
+        font-size: 1.4rem;
+    }
+
+    .news__item .news__description h3 {
+        font-size: 0.9rem;
+    }
+
+    .news__description-content {
+        font-size: 0.8rem;
+    }
+
+    .news__read-more a {
+        font-size: 0.9rem;
+    }
+}
