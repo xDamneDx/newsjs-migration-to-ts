@@ -121,6 +121,18 @@
     left: 0%;
 }
 
+@media (min-width: 1470px) {
+    .news {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .news__item {
+        width: 100%;
+    }
+}
+
 @media (min-width: 640px) {
     .news__item {
         flex-direction: row;
