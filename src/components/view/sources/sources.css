@@ -32,3 +32,14 @@
     font-weight: 400;
     white-space: nowrap;
 }
+
+@media (max-width: 639px) {
+    .sources {
+        height: 60px;
+    }
+
+    .source__item {
+        padding: 0.75em 1.5em;
+        font-size: 0.8em;
+    }
+}
